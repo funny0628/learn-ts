@@ -1,28 +1,46 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <MenuBar />
+    <div class="list">
+       <ItemList v-for="(item,index) in 10" :key="index"/>
+    </div>
   </div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator';
+import MenuBar from './components/MenuBar.vue';
+import ItemList from './components/ItemList.vue';
 
-export default {
-  name: 'App',
+@Component({
   components: {
-    HelloWorld
-  }
-}
+    MenuBar,
+    ItemList
+  },
+})
+export default class App extends Vue {}
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+* {
+  margin: 0;
+  padding: 0;
 }
+i {
+  font-style: normal;
+}
+#app {
+  width: 100vw;
+  height: 100vh;
+  background: url('http://hbimg.b0.upaiyun.com/701177326ef9c47bad726820d22fa5d3b5d7c89a752fb-zpsm1z_fw658');
+}
+.list {
+  width: 100vw;
+  padding: 20px 200px 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 </style>

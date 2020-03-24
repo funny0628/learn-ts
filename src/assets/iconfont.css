@@ -1,0 +1,25 @@
+@font-face {font-family: "iconfont";
+    src: url('//at.alicdn.com/t/font_1697679_erni8jymkdr.eot?t=1584494411545'); /* IE9 */
+    src: url('//at.alicdn.com/t/font_1697679_erni8jymkdr.eot?t=1584494411545#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAN0AAsAAAAAB4AAAAMmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqCZII7ATYCJAMMCwgABCAFhG0HOhuFBhEVlPtkXxTYzWQG+vVgXriJXEU72/lNe9W1xVR1kOdBEKAdNcHmsniA6EAegO5BtIcvrWq7wIoL0P2f2rGFDigL8zwpT//j/sq+XNfzGlcrUsACtgECCMTmt1e/AZfj/0p8ntV2nGPhY4BxQAHtjVEgD1wgAXnD9PKVB+MxBOBRW0ti4OCRE7Fo9CoBiJXLlszDZhJoNCtbBKbioBbiOGDlAfkUOBZ8X3ykfRYkjkI/NXbxoIX0fcOblWp7OKkdPJ0PYMdAAS2BBjG7MjAVFRVaUnjcoJvrDRqBnCodhgQKYTIb/eNJEAbdGgDQFBYlvMERQMCblUeQACgADCitAnZDS8WhNNAV61QtGwSbouK2x1bsGVlxcouYKjE5WVmVsl6tj2kxYcmkiROv9hybWzEyN/Phw7sVM/NrxNRokJBRJSZhxZQY3z9UaRLaGlWJyEiv9MFoIXbE+JNK5SRlbK4XHMwXqmYSUVGHYso7og9GTmJ7QpM+GWW7Tq2RV7Bo3eIbNwrDT+G7mxcip3dp+6OCi9dt2HD9RlHRuPH7cFD73FPPFtyZdet0pe61Nv47/G3fH/S5NnM7R9y0nf1Jx5zFzmi9xJlkltAas9h0SPhckPzPs8oplUsq/4+eOvvSC/s/+y/9z5VL4j2sTG35zFwAwqfVjqBEdVW1f8tvuNSw0ss5ZXr+tr4GoDAmdgR0hrq7sCcdFPATarQG8NRCDZ1KV7nQXZMo+qbWIgEPDwhhpLzXw02VRCsILJUSSCKoBYWlIaFZLeHg0xEGSx94tOAqj/sqIHNiLtDcC0Ao6w2ptBtQyvoSmvWDo7I/jLLN4ZlchQt9jfO7AYSCUYN8gldda6ybd2H7Ae21FpRWB+wL0ujTkEZJvlxiizTFlvFmM2YDhroGCvAc1nUHPXUBFUeOuc/j2FS9KVJdM9kZgCCBIQ1IT8BTOi3jDWe7wucPkHVVE6iBkstfIDLy44NUJOlAlIa2E+VWXhndWBnGDGCQTgMUYB6q1Tqgr54XIIVF3IBcLxebQaarIVre1LzfEcCjL1BJoYTG3Is2+PUq5+eVu04mAAA=') format('woff2'),
+    url('//at.alicdn.com/t/font_1697679_erni8jymkdr.woff?t=1584494411545') format('woff'),
+    url('//at.alicdn.com/t/font_1697679_erni8jymkdr.ttf?t=1584494411545') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('//at.alicdn.com/t/font_1697679_erni8jymkdr.svg?t=1584494411545#iconfont') format('svg'); /* iOS 4.1- */
+  }
+  
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-bianji:before {
+    content: "\e600";
+  }
+  
+  .icon-shanchu:before {
+    content: "\e66c";
+  }
+  
